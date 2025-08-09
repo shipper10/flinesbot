@@ -1,0 +1,22 @@
+{
+  "name": "telegram-hoyolab-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that uses node-hoyolab to fetch Hoyolab data per-user (cookies saved in JSON).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-hoyolab": "^1.0.0",
+    "telegraf": "^4.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
